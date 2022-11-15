@@ -1,0 +1,11 @@
+module Ponies
+{
+    item Dummy
+	{
+	    DisplayCategory = Junk,
+		Weight	=	0.3,
+		Type = Normal,
+		DisplayName	= Dummy,
+		Icon	=	RarityPlushie,
+	}
+}
