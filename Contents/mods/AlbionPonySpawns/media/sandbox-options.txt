@@ -1,0 +1,11 @@
+VERSION = 1,
+
+option AlbionPonies.SpawnList
+{
+    type = enum,
+    numValues = 4,
+    default = 1,
+    page = AlbionPonies,
+    translation = AlbionPonies_Spawnlist,
+    valueTranslation = AlbionPonies_Spawnlists,
+}

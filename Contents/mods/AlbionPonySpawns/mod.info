@@ -1,7 +1,6 @@
 name=Albion's Pony Spawns
 id=ZZZ_AlbionPonySpawns
 description=Requires PompsItemsPonies or PompsItems
-require=
 authors=albion
 modversion=1.0.0
 versionMin=41.00

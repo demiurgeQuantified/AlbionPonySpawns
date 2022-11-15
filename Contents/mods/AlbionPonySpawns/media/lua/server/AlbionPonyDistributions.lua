@@ -41,6 +41,19 @@ do
 end
 local itemList = {}
 
+
+---Replaces an item in a container with a random item from the item list.
+---@param container ItemContainer
+local function replaceDummies(container)
+    local dummies = container:getAllType('Base.Apple') -- dummy item type
+    for i = 0, dummies:size()-1 do
+        container:Remove(dummies:get(i))
+        local itemChoice = ZombRand(#itemList)+1
+        local item = container:AddItem(itemList[itemChoice])
+        container:addItemOnServer(item)
+    end
+end
+
 local function replaceDummies(inventoryPage)
     if not inventoryPage.inventory or not instanceof(inventoryPage.inventory:getParent(), "IsoDeadBody") then return end
     local container = inventoryPage.inventory
@@ -53,6 +66,19 @@ local function replaceDummies(inventoryPage)
     end
 end
 
+-- for items in containers
+local function onFillContainer(_roomName, _containerType, container)
+    replaceDummies(container)
+end
+
+Events.OnFillContainer.Add(onFillContainer)
+
+-- for items found on zombies
+local function onRefreshInventoryWindowContainers(inventoryPage)
+    if not inventoryPage.inventory or not instanceof(inventoryPage.inventory:getParent(), "IsoDeadBody") then return end
+    replaceDummies(inventoryPage.inventory)
+end
+
 Events.OnInitGlobalModData.Add(function()
     itemList = itemLists[SandboxVars.AlbionPonies.SpawnList]
 
@@ -61,7 +87,7 @@ Events.OnInitGlobalModData.Add(function()
     table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, "Ponies.Dummy")
     table.insert(SuburbsDistributions["all"]["inventoryfemale"].items, 0.001)
 
-    Events.OnRefreshInventoryWindowContainers.Add(replaceDummies)
+    Events.OnRefreshInventoryWindowContainers.Add(onRefreshInventoryWindowContainers)
 end)
 
 return itemLists
