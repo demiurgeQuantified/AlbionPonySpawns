@@ -12,4 +12,7 @@ Sandbox_EN = {
 
     Sandbox_AlbionPonies_WantOCs = "Enable OC Ponies",
     Sandbox_AlbionPonies_WantOCs_tooltip = "Spawn various OCs",
+
+    Sandbox_AlbionPonies_ReadablePonies = "'Readable' ponies",
+    Sandbox_AlbionPonies_ReadablePonies_tooltip = "Plushies can be 'read' to reduce stress and unhappiness. <RED> Changing this setting will delete any existing plushies in your save.",
 }
