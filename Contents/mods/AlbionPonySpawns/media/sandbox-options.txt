@@ -1,11 +1,33 @@
 VERSION = 1,
 
-option AlbionPonies.SpawnList
+option AlbionPonies.AlbionSpawnlist
 {
-    type = enum,
-    numValues = 4,
-    default = 1,
+    type = boolean,
+    default = false,
     page = AlbionPonies,
-    translation = AlbionPonies_Spawnlist,
-    valueTranslation = AlbionPonies_Spawnlists,
+    translation = AlbionPonies_AlbionSpawnlist,
+}
+
+option AlbionPonies.WantG4Ponies
+{
+    type = boolean,
+    default = true,
+    page = AlbionPonies,
+    translation = AlbionPonies_WantG4Ponies,
+}
+
+option AlbionPonies.WantOtherGenPonies
+{
+    type = boolean,
+    default = true,
+    page = AlbionPonies,
+    translation = AlbionPonies_WantOtherGenPonies,
+}
+
+option AlbionPonies.WantOCs
+{
+    type = boolean,
+    default = true,
+    page = AlbionPonies,
+    translation = AlbionPonies_WantOCs,
 }
