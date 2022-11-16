@@ -1,0 +1,15 @@
+Sandbox_EN = {
+    Sandbox_AlbionPonies = "Albion's Pony Tweaks",
+
+    Sandbox_AlbionPonies_AlbionSpawnlist = "Albion's Spawnlist",
+    Sandbox_AlbionPonies_AlbionSpawnlist_tooltip = "A custom spawnlist based on my own preferences. Includes most G4 ponies and some G5 ponies. Overrides all other settings.",
+
+    Sandbox_AlbionPonies_WantG4Ponies = "Enable G4 Ponies",
+    Sandbox_AlbionPonies_WantG4Ponies_tooltip = "Spawn ponies from generation 4, Friendship is Magic",
+
+    Sandbox_AlbionPonies_WantOtherGenPonies = "Other Generation Ponies",
+    Sandbox_AlbionPonies_WantOtherGenPonies_tooltip = "Spawn ponies from other generations, mostly G5",
+
+    Sandbox_AlbionPonies_WantOCs = "Enable OC Ponies",
+    Sandbox_AlbionPonies_WantOCs_tooltip = "Spawn various OCs",
+}

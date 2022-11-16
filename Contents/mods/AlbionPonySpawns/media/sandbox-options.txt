@@ -27,7 +27,7 @@ option AlbionPonies.WantOtherGenPonies
 option AlbionPonies.WantOCs
 {
     type = boolean,
-    default = true,
+    default = false,
     page = AlbionPonies,
     translation = AlbionPonies_WantOCs,
 }
