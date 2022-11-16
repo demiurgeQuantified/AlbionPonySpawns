@@ -31,3 +31,11 @@ option AlbionPonies.WantOCs
     page = AlbionPonies,
     translation = AlbionPonies_WantOCs,
 }
+
+option AlbionPonies.DisableReadablePonies
+{
+    type = boolean,
+    default = true,
+    page = AlbionPonies,
+    translation = AlbionPonies_DisableReadablePonies,
+}

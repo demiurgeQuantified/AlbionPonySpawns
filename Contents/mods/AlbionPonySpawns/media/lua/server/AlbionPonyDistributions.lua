@@ -1,24 +1,4 @@
-local Ponies = {}
-
-Ponies.gen4Ponies = {'FluttershyPlushie', 'RarityPlushie', 'ApplejackPlushieHat', 'ShiningArmorPlushie', 'RainbowDashPlushie', 'DerpyHoovesPlushie',
-'TwilightSparklePlushie', 'PinkiePiePlushie', 'CelestiaPlushie', 'LunaPlushie', 'CadancePlushie', 'ChrysalisPlushie', 'SpitfirePlushie',
-'OctaviaPlushie', 'VinylScratchPlushie', 'HoovesPlushie', 'CheerileePlushie', 'LyraPlushie', 'BonbonPlushie', 'BigMacPlushie', 'SongbirdPlushie',
-'ZecoraPlushie', 'TrixieLulamoonPlushie', 'SoarinPlushie', 'GrannySmithPlushie', 'BraeburnPlushieComplete', 'CaramelApplePlushie',
-'NightmareMoonPlushie', 'StarlightGlimmerPlushie', 'SunsetShimmerPlushie', 'ScootalooPlushie', 'SweetiePlushie', 'ApplebloomPlushie',
-'WoonaPlushie', 'SpikePlushie'}
-
-Ponies.otherGens = {'HitchPlushie', 'SproutPlushie', 'ZippPlushie', 'SunnyPlushie', 'IzzyPlushie', 'PippPetalsPlushie', 'FizzyPlushie'}
-
-Ponies.ocs = {'PompPlushie', 'CosmosPlushie', 'SunlightPlushie', 'LuckyPlushie', 'SlidingBoltPlushie', 'BastlerPlushie', 'PastelPlushie',
-'AnonfillyPlushie', 'LightyPlushie', 'GrapefruitPlushie', 'JubileePlushie', 'ScarletPlushie', 'TechnoColtPlushie', 'SoulHarmonyPlushie',
-'NuximuPlushie', 'BakerPlushie', 'SofiePlushie', 'MoonbowPlushie', 'CelestialAegisPlushie', 'LilyPlushie', 'BlueSkiesPlushie', 'FeatherBloomPlushie',
-'BitRateCompletePlushie', 'ZenithPlushie'}
-
-Ponies.albionSpawnlist = {'FluttershyPlushie', 'RarityPlushie', 'ApplejackPlushieHat', 'RainbowDashPlushie', 'DerpyHoovesPlushie',
-'TwilightSparklePlushie', 'PinkiePiePlushie', 'CelestiaPlushie', 'LunaPlushie', 'CadancePlushie', 'ChrysalisPlushie', 'SpitfirePlushie',
-'OctaviaPlushie', 'VinylScratchPlushie', 'HoovesPlushie', 'CheerileePlushie', 'LyraPlushie', 'BonbonPlushie', 'SongbirdPlushie',
-'ZecoraPlushie', 'TrixieLulamoonPlushie', 'GrannySmithPlushie', 'NightmareMoonPlushie', 'StarlightGlimmerPlushie', 'SunsetShimmerPlushie',
-'SunnyPlushie', 'PippPetalsPlushie', 'IzzyPlushie', 'ScootalooPlushie', 'SweetiePlushie', 'ApplebloomPlushie'}
+local Ponies = require 'AlbionPonies'
 
 Ponies.wantedPonies = {}
 
