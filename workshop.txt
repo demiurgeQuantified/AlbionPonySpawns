@@ -1,0 +1,12 @@
+version=1
+id=2889899349
+title=Albion's Pony Tweaks
+description=This is a submod of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2752664795]Pomp's Items[/url]. It was tested using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2792387747]Just the Ponies[/url] as that is the version I use, but it will probably work with the main mod too. You must enable one of those mods to use this mod.
+description=
+description=This mod allows you to choose which ponies should spawn and rebalances the spawn chance of pony plushies. With sandbox options, you can choose which categories of ponies should spawn (G4 ponies, G5 ponies and OCs). It also gives the option to disable 'Reading' the ponies, and fixes the bugged 'Attach' menu when Authentic Z isn't enabled. It also disables the jar scenes.
+description=
+description=There's also the option to use my personal spawnlist, as this mod was mostly created for my personal use - it contains most G4 ponies, my favourite G5 ponies and no OCs.
+description=
+description=There will be errors if you turn off all spawn categories - but why would you do that?
+tags=Build 41;Balance;Items;Misc;Multiplayer;Pop Culture;Silly/Fun
+visibility=public
