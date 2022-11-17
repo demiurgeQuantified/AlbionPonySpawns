@@ -3,9 +3,11 @@ module Ponies
     item Dummy
 	{
 	    DisplayCategory = Junk,
-		Weight	=	0.3,
+		Weight = 0.3,
 		Type = Normal,
-		DisplayName	= Dummy,
-		Icon	=	RarityPlushie,
+		DisplayName = Dummy,
+		Icon = DerpyHoovesPlushie,
+		StaticModel = DerpyHoovesPlushie,
+		WorldStaticModel = DerpyHoovesPlushie,
 	}
 }
